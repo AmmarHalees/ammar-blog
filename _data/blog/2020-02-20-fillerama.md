@@ -27,6 +27,8 @@ It's a fez. I wear a fez now. Fezes are cool. You know how I sometimes have real
 * You hit me with a cricket bat.
 * You know when grown-ups tell you 'everything's going to be fine' and you think they're probably lying to make you feel better?
 
+![kitchen](/assets/becca-tapert-sY5RjMB1KkE-unsplash.jpg "kitchen")
+
 I'm the Doctor. Well, they call me the Doctor. I don't know why. I call me the Doctor too. I still don't know why. I'm nobody's taxi service; I'm not gonna be there to catch you every time you feel like jumping out of a spaceship.
 
 It's a fez. I wear a fez now. Fezes are cool. The way I see it, every life is a pile of good things and bad things.…hey.…the good things don't always soften the bad things; but vice-versa the bad things don't necessarily spoil the good things and make them unimportant.

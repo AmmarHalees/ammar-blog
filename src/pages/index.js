@@ -22,7 +22,22 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <HeroHeader />
+
+      <p>
+
+        This website is currently under-construction.
+
+      </p>
+      
+      <p>
+
+        For the meantime, you can refer to my old website: 
+
+        <a  rel="noreferrer" title="My original website" href="https://ammarhalees.github.io/work/"> here </a>
+
+      </p>
+
+      {/* <HeroHeader />
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
@@ -31,7 +46,7 @@ const IndexPage = ({
       <h2>Open Source &darr;</h2>
       <div className="grids">
         {Posts}
-      </div>
+      </div> */}
 
     </Layout>
   )

@@ -31,17 +31,19 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/W3Layouts/gatsby-starter-delog#readme",
+  "homepage": "https://ammarhalees.com/",
   "keywords": [
-    "gatsby",
-    "netlify cms"
+    "Ammar Halees",
+    "Software engineer",
+    "Frontend developer",
+    "Amman"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/W3Layouts/gatsby-starter-delog.git"
+    "url": "https://github.com/AmmarHalees/ammar-blog"
   },
   "scripts": {
-    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build": "gatsby build --log-pages",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

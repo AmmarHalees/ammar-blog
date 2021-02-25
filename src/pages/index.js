@@ -3,7 +3,6 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
 
 const IndexPage = ({
   data: {
@@ -52,17 +51,6 @@ const IndexPage = ({
           {Posts}
         </div>
       </section>
-
-      {/* <HeroHeader /> */}
-      {/* <h2>Blog Posts &darr;</h2>
-      <div className="grids">
-        {Posts}
-      </div>
-
-      <h2>Open Source &darr;</h2>
-      <div className="grids">
-        {Posts}
-      </div> */}
 
     </Layout>
   )

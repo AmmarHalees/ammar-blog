@@ -29,11 +29,11 @@ body.light {
   --input-bg: var(--background);
 }
 body.dark {
-  --primary-color: #9984d5;
+  --primary-color: #6600f5;
   --primary-text-color: #fff;
   --featured-bg: #66578d;
   --featured-text: #fff;
-  --secondary-color: #66578d;
+  --secondary-color: #ef6262;
   --background: #101010;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
@@ -91,6 +91,7 @@ a {
       margin-right: 0;
     }
   }
+  font-size: 1.2rem;
 }
 .site-header {
   display: flex;
@@ -217,26 +218,30 @@ a {
 .card {
   display: grid;
   background-color: var(--card-bg);
-  border-radius: 9px;
+  border-radius: 40px;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
   line-height: 1.5;
-  &:hover .post-link {
-    color: var(--primary-color);
-  }
+  background: linear-gradient(
+    90deg
+    , #6600f5, #ef62628c);
+
   > a img {
     display: block;
   }
   > header {
-    padding: 24px;
-  }
+    margin: 9px;
+    padding: 1rem;
+    background: #101010;
+    border-radius: 0rem 0rem 9px 9px;  }
   > h2:first-child {
     margin: 0 0 0.5rem 0;
   }
   .post-title {
     font-size: 1.2rem;
     margin-bottom: 0.3rem;
+    color: white;
   }
   .post-meta {
     font-weight: 100;
@@ -249,7 +254,7 @@ a {
 }
 .post-meta {
   font-size: 0.8rem;
-  color: var(--text-secondary-color);
+  color: #ffffffa8;
 }
 .site-footer {
   text-align: center;

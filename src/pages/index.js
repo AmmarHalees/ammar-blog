@@ -23,22 +23,38 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
 
-      <p>
+      <h1 className="_title">Ammar Halees</h1>
 
-        This website is currently under-construction.
+      <h2 className="_subtitle">Software engineer - Front-end @Mawdoo3</h2>
 
-      </p>
-      
-      <p>
 
-        For the meantime, you can refer to my old website: 
+      <section className="_section">
 
-        <a  rel="noreferrer" title="My original website" href="https://ammarhalees.github.io/work/"> here </a>
 
-      </p>
+        <div className="sep_container">
 
-      {/* <HeroHeader />
-      <h2>Blog Posts &darr;</h2>
+          <div className="sep_lineContainer">
+
+            <div className="sep_line sep_left">  </div>
+
+          </div>
+
+          <p className="sep_title sep_large">Highlights</p>
+
+          <div className="sep_lineContainer">
+
+            <div className="sep_line sep_right"> </div>
+
+          </div>
+        </div >
+
+        <div className="grids">
+          {Posts}
+        </div>
+      </section>
+
+      {/* <HeroHeader /> */}
+      {/* <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
       </div>

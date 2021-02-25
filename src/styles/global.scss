@@ -34,7 +34,7 @@ body.dark {
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #66578d;
-  --background: #0A041A;
+  --background: #101010;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
@@ -404,4 +404,65 @@ body.light {
     box-shadow: 0 0 0 2px;
     top: 8px;
     left: 2px
+}
+
+._title{
+
+  font-size: 3rem;
+}
+
+._subtitle{
+  font-weight: 100;
+}
+
+._section{
+
+  margin-top: 2rem;
+}
+
+/*--Seperator---*/
+
+.sep_container{
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+.sep_lineContainer{
+
+  height: 100%;
+  width: 100%;
+  display: grid;
+  align-items: center;
+}
+
+.sep_line{
+
+  width: 100%;
+  height: 2px;
+  
+
+}
+
+.sep_left{
+  background: linear-gradient(to left, var(--btn-text-color), rgba(255, 255, 255, 0));
+
+
+}
+
+.sep_title{
+
+  padding: 2rem;
+  margin: 0px;
+}
+
+.sep_large{
+
+  font-size: 3rem;
+}
+
+.sep_right{
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--btn-text-color));
+
+
 }

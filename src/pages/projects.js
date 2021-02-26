@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 
-const BlogPage = ({
+const Projectspage = ({
   data: {
     site
   },
@@ -11,13 +11,13 @@ const BlogPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Blog — {site.siteMetadata.title}</title>
+        <title>Projects — {site.siteMetadata.title}</title>
         <meta name="description" content={"Blog page of " + site.siteMetadata.description} />
       </Helmet>
 
-      <h1 className="_title">Blog</h1>
+      <h1 className="_title">Projects</h1>
 
-      <h2 className="_subtitle"></h2>
+      <h2 className="_subtitle">Open source contributions & code templates</h2>
 
       <div className="two-grids -Blog">
 
@@ -25,9 +25,9 @@ const BlogPage = ({
     </Layout>
   )
 }
-export default BlogPage
+export default Projectspage
 export const pageQuery = graphql`
-  query BlogPageQuery{
+  query ProjectspageQuery{
     site {
       siteMetadata {
         title

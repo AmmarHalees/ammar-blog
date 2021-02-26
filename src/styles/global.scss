@@ -218,7 +218,7 @@ a {
 .card {
   display: grid;
   background-color: var(--card-bg);
-  border-radius: 40px;
+  border-radius: 1rem;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
@@ -229,12 +229,15 @@ a {
 
   > a img {
     display: block;
+    width: 357px;
+    height: 175px;
+    object-fit: cover;
   }
   > header {
-    margin: 9px;
-    padding: 1rem;
+    margin: 5px;
+    padding: 2rem;
     background: #101010;
-    border-radius: 0rem 0rem 9px 9px;  }
+    border-radius: 0rem 0rem 9px 9px; }
   > h2:first-child {
     margin: 0 0 0.5rem 0;
   }

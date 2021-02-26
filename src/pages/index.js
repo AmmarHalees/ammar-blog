@@ -3,6 +3,7 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
+import { ReactComponent as LinkedIN } from '../images/linkedin.svg';
 
 const IndexPage = ({
   data: {
@@ -26,6 +27,11 @@ const IndexPage = ({
 
       <h2 className="_subtitle">Software engineer - Front-end @Mawdoo3</h2>
 
+      <div>
+
+        {LinkedIN}
+
+      </div>
 
       <section className="_section">
 

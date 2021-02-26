@@ -56,9 +56,11 @@ body {
   border-top: 10px solid var(--primary-color);
   background-color: var(--background);
   color: var(--text-color);
+  transition: all 300ms linear;
+
 }
 a {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   text-decoration: none;
   &:hover {
     text-decoration: underline;
@@ -96,8 +98,8 @@ a {
 .site-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
-  background: var(--site-header);
+  padding: 20px 0px;
+  // background: var(--site-header);
   margin-bottom: 32px;
   align-items: center;
 }
@@ -223,6 +225,7 @@ a {
   box-shadow: 0 0 30px var(--card-shadow);
   overflow: hidden;
   line-height: 1.5;
+  max-width: 357px;
   background: linear-gradient(
     90deg
     , #6600f5, #ef62628c);
@@ -472,5 +475,17 @@ body.light {
 .sep_right{
   background: linear-gradient(to left, rgba(255, 255, 255, 0), var(--btn-text-color));
 
+
+}
+
+.social-links{
+
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: fit-content;
+  grid-gap: 1rem;
+  margin: 0px;
+  padding: 0px;
 
 }

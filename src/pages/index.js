@@ -3,7 +3,10 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import { ReactComponent as LinkedIN } from '../images/linkedin.svg';
+import LinkedIN from '../images/linkedin.svg';
+import Github from '../images/github.svg';
+import Twitter from '../images/twitter.svg';
+import Medium from '../images/medium.svg';
 
 const IndexPage = ({
   data: {
@@ -27,11 +30,33 @@ const IndexPage = ({
 
       <h2 className="_subtitle">Software engineer - Front-end @Mawdoo3</h2>
 
-      <div>
+      <ul className="social-links">
 
-        {LinkedIN}
+        <li>
+          <a href="https://www.linkedin.com/in/ammarhalees/" title="linkedin profile" target="_blank" rel="noopener">
+            <LinkedIN />
+          </a>
+        </li>
 
-      </div>
+        <li>
+          <a href="https://github.com/AmmarHalees" title="Github profile" target="_blank" rel="noopener">
+            <Github />
+          </a>
+        </li>
+
+        <li>
+          <a href="https://twitter.com/ammarhalees" title="Twitter profile" target="_blank" rel="noopener">
+            <Twitter />
+          </a>
+        </li>
+{/* 
+        <li>
+          <a href="https://Medium.com/@ammarhalees" title="Medium profile" target="_blank" rel="noopener">
+            <Medium />
+          </a>
+        </li> */}
+
+      </ul>
 
       <section className="_section">
 

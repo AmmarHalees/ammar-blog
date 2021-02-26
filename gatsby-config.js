@@ -15,6 +15,15 @@ module.exports = {
         path: `${__dirname}/_data`,
       },
     },
+
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /images/ 
+        }
+      }
+    },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

@@ -1,0 +1,33 @@
+{
+
+    "links": [
+
+        {
+
+            "title":"linkedin profile",
+            "id": "linkedin",
+            "href" : "https://www.linkedin.com/in/ammarhalees/",
+            "icon" : "linkedin"
+
+        },
+        {
+
+            "title":"Github profile",
+            "id": "github",
+            "href" : "https://github.com/AmmarHalees",
+            "icon" : "github"
+
+        },
+        {
+
+            "title":"Twitter profile",
+            "id": "twitter",
+            "href" : "https://twitter.com/ammarhalees",
+            "icon" : "twitter"
+
+        }
+
+    ]
+
+
+}

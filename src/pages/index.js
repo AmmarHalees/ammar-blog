@@ -3,10 +3,9 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import LinkedIN from '../images/linkedin.svg';
-import Github from '../images/github.svg';
-import Twitter from '../images/twitter.svg';
-import Medium from '../images/medium.svg';
+import links from '../../data/social.json';
+
+import PageHero from "../components/PageHero";
 
 const IndexPage = ({
   data: {
@@ -26,41 +25,7 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
 
-      <section className="_heading">
-       
-        <h1 className="_title">Ammar Halees</h1>
-
-        <h2 className="_subtitle">Software engineer - Front-end @Mawdoo3</h2>
-
-        <ul className="social-links">
-
-          <li>
-            <a href="https://www.linkedin.com/in/ammarhalees/" title="linkedin profile" target="_blank" rel="noreferrer noopener">
-              <LinkedIN />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://github.com/AmmarHalees" title="Github profile" target="_blank" rel="noreferrer noopener">
-              <Github />
-            </a>
-          </li>
-
-          <li>
-            <a href="https://twitter.com/ammarhalees" title="Twitter profile" target="_blank" rel="noreferrer noopener">
-              <Twitter />
-            </a>
-          </li>
-          {/* 
-        <li>
-          <a href="https://Medium.com/@ammarhalees" title="Medium profile" target="_blank" rel="noreferrer noopener">
-            <Medium />
-          </a>
-        </li> */}
-
-        </ul>
-
-      </section>
+      <PageHero title="Ammar Halees" subtitle="Software engineer - Front-end @Mawdoo3" links={links}/>
 
 
       <section className="_section">

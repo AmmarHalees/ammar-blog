@@ -10,7 +10,7 @@ const BlogPage = ({
 }) => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{lang:'en'}}>
         <title>Blog — {site.siteMetadata.title}</title>
         <meta name="description" content={"Blog page of " + site.siteMetadata.description} />
       </Helmet>

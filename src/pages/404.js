@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 const notFound = () => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{lang:'en'}}>
         <title>Page not found</title>
       </Helmet>
       <div style={{textAlign: "center", padding:"5vh 0", lineHeight: "1.5"}}>

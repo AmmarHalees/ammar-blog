@@ -10,7 +10,7 @@ const ContactPage = ({
 }) => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{lang:'en'}}>
         <title>Contact — {site.siteMetadata.title}</title>
         <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
       </Helmet>

@@ -10,7 +10,7 @@ const Projectspage = ({
 }) => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet htmlAttributes={{lang:'en'}}>
         <title>Projects — {site.siteMetadata.title}</title>
         <meta name="description" content={"Blog page of " + site.siteMetadata.description} />
       </Helmet>

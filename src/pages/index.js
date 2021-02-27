@@ -33,25 +33,25 @@ const IndexPage = ({
       <ul className="social-links">
 
         <li>
-          <a href="https://www.linkedin.com/in/ammarhalees/" title="linkedin profile" target="_blank" rel="noopener">
+          <a href="https://www.linkedin.com/in/ammarhalees/" title="linkedin profile" target="_blank" rel="noreferrer noopener">
             <LinkedIN />
           </a>
         </li>
 
         <li>
-          <a href="https://github.com/AmmarHalees" title="Github profile" target="_blank" rel="noopener">
+          <a href="https://github.com/AmmarHalees" title="Github profile" target="_blank" rel="noreferrer noopener">
             <Github />
           </a>
         </li>
 
         <li>
-          <a href="https://twitter.com/ammarhalees" title="Twitter profile" target="_blank" rel="noopener">
+          <a href="https://twitter.com/ammarhalees" title="Twitter profile" target="_blank" rel="noreferrer noopener">
             <Twitter />
           </a>
         </li>
 {/* 
         <li>
-          <a href="https://Medium.com/@ammarhalees" title="Medium profile" target="_blank" rel="noopener">
+          <a href="https://Medium.com/@ammarhalees" title="Medium profile" target="_blank" rel="noreferrer noopener">
             <Medium />
           </a>
         </li> */}

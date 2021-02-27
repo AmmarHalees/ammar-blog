@@ -21,45 +21,49 @@ const IndexPage = ({
 
   return (
     <Layout>
-      <Helmet htmlAttributes={{lang:'en'}}>
+      <Helmet htmlAttributes={{ lang: 'en' }}>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
 
-      <h1 className="_title">Ammar Halees</h1>
+      <section className="_heading">
+       
+        <h1 className="_title">Ammar Halees</h1>
 
-      <h2 className="_subtitle">Software engineer - Front-end @Mawdoo3</h2>
+        <h2 className="_subtitle">Software engineer - Front-end @Mawdoo3</h2>
 
-      <ul className="social-links">
+        <ul className="social-links">
 
-        <li>
-          <a href="https://www.linkedin.com/in/ammarhalees/" title="linkedin profile" target="_blank" rel="noreferrer noopener">
-            <LinkedIN />
-          </a>
-        </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ammarhalees/" title="linkedin profile" target="_blank" rel="noreferrer noopener">
+              <LinkedIN />
+            </a>
+          </li>
 
-        <li>
-          <a href="https://github.com/AmmarHalees" title="Github profile" target="_blank" rel="noreferrer noopener">
-            <Github />
-          </a>
-        </li>
+          <li>
+            <a href="https://github.com/AmmarHalees" title="Github profile" target="_blank" rel="noreferrer noopener">
+              <Github />
+            </a>
+          </li>
 
-        <li>
-          <a href="https://twitter.com/ammarhalees" title="Twitter profile" target="_blank" rel="noreferrer noopener">
-            <Twitter />
-          </a>
-        </li>
-{/* 
+          <li>
+            <a href="https://twitter.com/ammarhalees" title="Twitter profile" target="_blank" rel="noreferrer noopener">
+              <Twitter />
+            </a>
+          </li>
+          {/* 
         <li>
           <a href="https://Medium.com/@ammarhalees" title="Medium profile" target="_blank" rel="noreferrer noopener">
             <Medium />
           </a>
         </li> */}
 
-      </ul>
+        </ul>
+
+      </section>
+
 
       <section className="_section">
-
 
         <div className="sep_container">
 
@@ -69,7 +73,7 @@ const IndexPage = ({
 
           </div>
 
-          <p className="sep_title sep_large">Highlights</p>
+          <p className="sep_title sep_large">Experience</p>
 
           <div className="sep_lineContainer">
 

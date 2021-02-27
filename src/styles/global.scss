@@ -56,7 +56,7 @@ body {
   background: var(--background);
   color: var(--text-color);
   transition: all 300ms linear;
-
+  min-height: 100vh;
 }
 a {
   color: #888;
@@ -518,11 +518,10 @@ body.light {
 }
 
 .vertical-timeline-element-icon {
-  background: url(https://modo3.com/icon-normal.png) !important;
   background-position: center !important;
   background-size: contain !important;
   box-shadow: 0 0 0 2px #fff, inset 0 2px 0 #00000014, 0 3px 0 4px #0000000d  !important;
-
+  background-repeat: no-repeat  !important;
 }
 
 
@@ -541,3 +540,8 @@ body.light {
       margin-bottom: 1rem;
     }
   }
+
+
+  .vertical-timeline-element>div {
+    border-radius: 2rem;
+}

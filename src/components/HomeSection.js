@@ -1,6 +1,6 @@
 import React from "react"
 
-function HomeSection({ title , data}) {
+function HomeSection({ title , children}) {
   return (
 
     <section className="_section">
@@ -22,9 +22,8 @@ function HomeSection({ title , data}) {
       </div>
     </div >
 
-    <div className="grids">
-      {data}
-    </div>
+  
+      {children}
   </section>
 
   )

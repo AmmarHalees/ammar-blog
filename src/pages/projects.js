@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
-import HeroHeader from "../components/heroHeader"
 import PageHero from "../components/PageHero"
 
 const Projectspage = ({

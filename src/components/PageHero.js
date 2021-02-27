@@ -6,16 +6,11 @@ import Medium from '../images/medium.svg';
 
 
 const iconMap = {
-
   "linkedin": <LinkedIN />,
   "github": <Github />,
   "twitter": <Twitter />,
   "medium": <Medium />,
-
 }
-
-
-
 
 function PageHero({ title, subtitle, links }) {
   return (

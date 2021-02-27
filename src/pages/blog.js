@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import PageHero from "../components/PageHero"
 import PostLink from "../components/post-link"
 import HomeSection from "../components/HomeSection"
-import HeroHeader from "../components/heroHeader"
 
 const BlogPage = ({
   data: {
@@ -28,10 +27,17 @@ const BlogPage = ({
 
       <PageHero title="Blog" subtitle="I write about software and life" links={null} />
 
-      <HomeSection data={Posts} title="Development" />
+      <HomeSection  title="Development" >
 
-      <HomeSection data={Posts} title="Thoughts" />
+        {Posts}
 
+      </HomeSection>
+
+      <HomeSection  title="Thoughts" >
+
+        {Posts}
+
+      </HomeSection>
 
     </Layout>
   )

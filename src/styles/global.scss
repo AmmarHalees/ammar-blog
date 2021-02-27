@@ -503,3 +503,20 @@ body.light {
   }
 
 }
+
+.vertical-timeline-element-content {
+  box-shadow: none !important;
+}
+
+.vertical-timeline::before {
+  width: 2px !important;
+  background: #fff !important;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0), var(--btn-text-color)) !important;
+
+  // background: linear-gradient(to top, var(--secondary-color), var(--primary-color)) !important;
+
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 2px #fff, inset 0 2px 0 #00000014, 0 3px 0 4px #0000000d  !important;}
+

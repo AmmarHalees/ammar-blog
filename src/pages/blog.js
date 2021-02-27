@@ -29,13 +29,13 @@ const BlogPage = ({
 
       <HomeSection  title="Development" >
 
-        {Posts}
+        {/* {Posts} */}
 
       </HomeSection>
 
       <HomeSection  title="Thoughts" >
 
-        {Posts}
+        {/* {Posts} */}
 
       </HomeSection>
 

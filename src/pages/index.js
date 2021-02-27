@@ -7,9 +7,8 @@ import Github from '../images/github.svg';
 
 import PageHero from "../components/PageHero";
 import HomeSection from "../components/HomeSection";
-import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
 
 const IndexPage = ({
   data: {
@@ -25,82 +24,120 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
 
-      <PageHero title="Ammar Halees" subtitle="Software engineer - Front-end @Mawdoo3" links={links} />
+      <PageHero title="Ammar Halees" subtitle="Software engineer - Front-end @Mawdoo3." links={links} />
 
-      <HomeSection  title="Experience">
+      <HomeSection title="Experience">
 
-        
-      <VerticalTimeline >
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: '#181326', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-    date="2011 - present"
-    iconStyle={{ background: '#181326', color: '#fff' }}
-    icon={<Twitter />}
-  >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
-  </VerticalTimelineElement>
 
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: '#181326', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-    date="2011 - present"
-    iconStyle={{ background: '#181326', color: '#fff' }}
-    icon={<Twitter />}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
+        <VerticalTimeline >
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#181326', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #181326' }}
+            date={<div className="_timeline-date-container">
+              <h3>Mawdoo3.com (World’s largest
+Arabic content website)</h3>
+      Jun. 19th 2020 – present.</div>}
+            iconStyle={{ background: '#181326', color: '#fff' }}
+            icon={null}
+          >
+            <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Amman, Jordan</h4>
 
-</VerticalTimeline>
-      
+            <ul className="jobstuff">
+
+              <li>
+                Working with the web team on a website builder: Using VueJS, Nuxt, Webpack, and corresponding
+                tooling.
+          </li>
+
+              <li>
+                Worked on the “Darsak” and “Saffak” government Educational Platforms : Used mainly VueJS and PHP
+                laravel.
+
+          </li>
+
+              <li>
+                Lead many efforts in performance optimization of existing websites
+
+
+          </li>
+
+            </ul>
+
+
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#181326', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #181326' }}
+            date={<div className="_timeline-date-container">
+              <h3>LigaData (Big data analytics)</h3>
+              Jan. 21st 2020 – Jun. 19th 2020</div>}
+            iconStyle={{ background: '#181326', color: '#fff' }}
+            icon={null}
+          >
+            <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Amman, Jordan</h4>
+
+            <ul className="jobstuff">
+
+              <li>
+                Worked on the “Sancho Analytics” big data Chat-bot management system.
+          </li>
+
+              <li>
+                Used mainly: ReactJS , Redux, NextJS, GraphQL, Jest, ExpressJS and more.
+
+          </li>
+
+
+            </ul>
+
+
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#181326', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #181326' }}
+            date={<div className="_timeline-date-container">
+              <h3>Erabia (E-commerce)</h3>
+              Dec. 2nd
+, 2018 – Jan. 19th 2020</div>}
+            iconStyle={{ background: '#181326', color: '#fff' }}
+            icon={null}
+          >
+            <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Amman, Jordan</h4>
+
+            <ul className="jobstuff">
+
+              <li>
+                Worked on the “Erabia Dashboard” Project used by the administrators of online stores (Carrefour, Cosmo,
+                Kaf and others) to manage products, customers, accounts, orders and more.
+          </li>
+
+              <li>
+                Worked with technologies such as: ReactJs, (ES6), Nodejs, Puppeteer, NPM, Redux, Webpack,
+                Git, SAP Hybris And more, implementing strict functional programming practices.
+
+          </li>
+
+
+            </ul>
+
+
+          </VerticalTimelineElement>
+
+        </VerticalTimeline>
+
       </HomeSection>
 
       <HomeSection title="Education">
 
-      <VerticalTimeline>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: '#181326', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-    date="2011 - present"
-    iconStyle={{ background: '#181326', color: '#fff' }}
-    icon={<Twitter />}
-  >
-    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-    </p>
-  </VerticalTimelineElement>
 
-  <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: '#181326', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-    date="2011 - present"
-    iconStyle={{ background: '#181326', color: '#fff' }}
-    icon={<Twitter />}
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement>
-
-</VerticalTimeline>
-      
-      
       </HomeSection>
 
 

@@ -25,11 +25,11 @@ const BlogPage = ({
         <meta name="description" content={"Blog page of " + site.siteMetadata.title} />
       </Helmet>
 
-      <PageHero title="Blog" subtitle="I write about software and life" links={null} />
+      <PageHero title="Blog" subtitle="I write about software , engineering and life" links={null} />
 
       <HomeSection  title="Development" >
 
-        {/* {Posts} */}
+        {Posts}
 
       </HomeSection>
 

@@ -9,13 +9,16 @@ import PageHero from "../components/PageHero";
 import HomeSection from "../components/HomeSection";
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { useMediaQuery } from 'react-responsive'
 
 const IndexPage = ({
   data: {
     site
   },
 }) => {
-
+  const isDesktopOrLaptop = useMediaQuery({
+    query: '(min-device-width: 1224px)'
+  })
 
   return (
     <Layout>
@@ -29,7 +32,7 @@ const IndexPage = ({
       <HomeSection title="Experience">
 
 
-        <VerticalTimeline >
+        <VerticalTimeline  animate={isDesktopOrLaptop}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#181326', color: '#fff' }}

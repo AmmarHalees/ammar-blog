@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
+import HeroHeader from "../components/heroHeader"
 import PageHero from "../components/PageHero"
 
 const Projectspage = ({
@@ -12,12 +13,12 @@ const Projectspage = ({
   return (
     <Layout>
       <Helmet htmlAttributes={{lang:'en'}}>
-        <title>Projects — {site.siteMetadata.title}</title>
-        <meta name="description" content={"Blog page of " + site.siteMetadata.description} />
+        <title>Projects - {site.siteMetadata.title}</title>
+        <meta name="description" content={"Projects page of " + site.siteMetadata.title} />
       </Helmet>
 
-
       <PageHero title="Projects" subtitle="Open source contributions & code templates" links={null}/>
+
 
     </Layout>
   )

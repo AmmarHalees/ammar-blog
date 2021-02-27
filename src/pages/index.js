@@ -5,6 +5,7 @@ import links from '../../data/social.json';
 
 import PageHero from "../components/PageHero";
 import HomeSection from "../components/HomeSection";
+import HeroHeader from "../components/heroHeader"
 
 const IndexPage = ({
   data: {

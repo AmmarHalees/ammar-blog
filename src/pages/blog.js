@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import PageHero from "../components/PageHero"
 import PostLink from "../components/post-link"
 import HomeSection from "../components/HomeSection"
+import HeroHeader from "../components/heroHeader"
 
 const BlogPage = ({
   data: {
@@ -21,13 +22,16 @@ const BlogPage = ({
   return (
     <Layout>
       <Helmet htmlAttributes={{ lang: 'en' }}>
-        <title>Blog — {site.siteMetadata.title}</title>
-        <meta name="description" content={"Blog page of " + site.siteMetadata.description} />
+        <title>Blog - {site.siteMetadata.title}</title>
+        <meta name="description" content={"Blog page of " + site.siteMetadata.title} />
       </Helmet>
 
       <PageHero title="Blog" subtitle="I write about software and life" links={null} />
 
-      <HomeSection data={Posts} title="Experience" />
+      <HomeSection data={Posts} title="Development" />
+
+      <HomeSection data={Posts} title="Thoughts" />
+
 
     </Layout>
   )

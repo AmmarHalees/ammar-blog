@@ -16,7 +16,8 @@ Hoisting is a JavaScript feature (or phenomenon) in which variables **declared 
 ## Example
 
 ```
-
+console.log(myname);
+var myname= "Ammar"
 ```
 
 Logically; Line 1 should throw an error (Uncaught reference error), as we are attempting to access a variable that does not exist (yet) in memory.
@@ -58,7 +59,8 @@ Code is executed Line by Line.
 In the light of the above and **considering only variables in memory**; let’s examine the code snippet from before:
 
 ```
-
+console.log(myname);
+var myname= "Ammar"
 ```
 
 > Phase 1:

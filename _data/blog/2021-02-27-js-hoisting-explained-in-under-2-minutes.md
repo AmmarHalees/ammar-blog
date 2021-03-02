@@ -17,7 +17,7 @@ Hoisting is a JavaScript feature (or phenomenon) in which variables **declared 
 
 ```javascript
 console.log(myname);
-var myname= "Ammar"
+const myname= "Ammar"
 ```
 
 <pre></pre>
@@ -70,7 +70,7 @@ In the light of the above and **considering only variables in memory**; let’s
 
 ```javascript
 console.log(myname);
-var myname= "Ammar"
+const myname= "Ammar"
 ```
 
 <pre></pre>

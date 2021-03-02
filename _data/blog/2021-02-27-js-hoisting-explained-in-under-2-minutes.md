@@ -24,7 +24,7 @@ var myname= "Ammar"
 
 
 
-Logically; Line 1 should throw an error (Uncaught reference error), as we are attempting to access a variable that does not exist (yet) in memory.
+
 
 Instead we get `undefined`: A primitive type given by the JS engine to variables **which have been declared** but not assigned.
 

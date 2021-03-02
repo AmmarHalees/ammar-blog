@@ -16,8 +16,10 @@ const Projectspage = ({
         <meta name="description" content={"Projects page of " + site.siteMetadata.title} />
       </Helmet>
 
-      <PageHero title="Projects" subtitle="Open source contributions & code templates" links={null}/>
+      <PageHero title="Projects" subtitle="Open source contributions & code templates." links={null}/>
 
+        <br/>
+        <p>Under construction</p>
 
     </Layout>
   )

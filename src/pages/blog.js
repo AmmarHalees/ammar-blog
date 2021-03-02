@@ -27,6 +27,9 @@ const BlogPage = ({
 
       <PageHero title="Blog" subtitle="I write about software , engineering and life." links={null} />
 
+      <br/>
+        <p>Under construction</p>
+
       <HomeSection title="Development" >
         <div className="grids">
 

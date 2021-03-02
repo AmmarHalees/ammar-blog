@@ -638,10 +638,11 @@ body.light {
 ._timeline-date-container {
 
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
 
   h3 {
     margin: 0px;
+    font-weight: 500;
   }
 
 }
@@ -656,8 +657,9 @@ body.light {
 
 
 .vertical-timeline-element>div {
-  border-radius: 2rem;
+  border-radius: 1rem;
   border: 1px solid #6b6b6b;
+  padding: 1rem  !important;
 }
 
 
@@ -665,4 +667,9 @@ body.light {
   background: unset !important;
   box-shadow: none !important;
 
+}
+
+.vertical-timeline-element-title {
+  font-size: 1.5rem  !important;
+  font-weight: 500;
 }

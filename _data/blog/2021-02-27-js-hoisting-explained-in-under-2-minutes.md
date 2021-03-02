@@ -13,7 +13,7 @@ thumbnail: /assets/1_flouovyjlil6kyn4dk3vrq.png
 
 Hoisting is a JavaScript feature (or phenomenon) in which variables **declared with** `var` and **function expressions** are available for use ahead of time i.e before they’re even declared lexically in the code.
 
-## Example
+### Example
 
 ```javascript
 console.log(myname);
@@ -42,7 +42,13 @@ The execution context is created in two phases:
 
 1) The Creation Phase
 
-2)The Execution Phase.
+2) The Execution Phase.
+
+
+
+<pre></pre>
+
+>
 
 ### **1) The Creation Phase**
 
@@ -58,11 +64,11 @@ Code is executed Line by Line.
 
 
 
-##### Example
+### Example
 
 In the light of the above and **considering only variables in memory**; let’s examine the code snippet from before:
 
-```
+```javascript
 console.log(myname);
 var myname= "Ammar"
 ```

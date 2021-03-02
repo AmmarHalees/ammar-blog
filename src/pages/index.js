@@ -35,8 +35,8 @@ const IndexPage = ({
         <VerticalTimeline  animate={isDesktopOrLaptop}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#181326', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #181326' }}
+            // contentStyle={{ background: '#181326', color: '#fff' }}
+            // contentArrowStyle={{ borderRight: '7px solid  #181326' }}
             date={<div className="_timeline-date-container">
               <h3>Mawdoo3.com (World’s largest
 Arabic content website)</h3>
@@ -45,7 +45,7 @@ Arabic content website)</h3>
             icon={null}
           >
             <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Amman, Jordan</h4>
+            <h4 className="vertical-timeline-element-subtitle _subtitle">Amman, Jordan</h4>
 
             <ul className="jobstuff">
 
@@ -73,8 +73,8 @@ Arabic content website)</h3>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#181326', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #181326' }}
+            // contentStyle={{ background: '#181326', color: '#fff' }}
+            // contentArrowStyle={{ borderRight: '7px solid  #181326' }}
             date={<div className="_timeline-date-container">
               <h3>LigaData (Big data analytics)</h3>
               Jan. 21st 2020 – Jun. 19th 2020</div>}
@@ -82,7 +82,7 @@ Arabic content website)</h3>
             icon={null}
           >
             <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Amman, Jordan</h4>
+            <h4 className="vertical-timeline-element-subtitle _subtitle">Amman, Jordan</h4>
 
             <ul className="jobstuff">
 
@@ -103,8 +103,8 @@ Arabic content website)</h3>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#181326', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #181326' }}
+            // contentStyle={{ background: '#181326', color: '#fff' }}
+            // contentArrowStyle={{ borderRight: '7px solid  #181326' }}
             date={<div className="_timeline-date-container">
               <h3>Erabia (E-commerce)</h3>
               Dec. 2nd
@@ -113,7 +113,7 @@ Arabic content website)</h3>
             icon={null}
           >
             <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Amman, Jordan</h4>
+            <h4 className="vertical-timeline-element-subtitle _subtitle">Amman, Jordan</h4>
 
             <ul className="jobstuff">
 

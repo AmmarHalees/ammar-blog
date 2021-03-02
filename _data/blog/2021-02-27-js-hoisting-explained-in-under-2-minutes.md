@@ -15,7 +15,7 @@ Hoisting is a JavaScript feature (or phenomenon) in which variables **declared 
 
 ## Example
 
-```
+```javascript
 console.log(myname);
 var myname= "Ammar"
 ```

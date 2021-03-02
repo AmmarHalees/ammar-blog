@@ -47,7 +47,7 @@ body.dark {
   --featured-bg: #66578d;
   --featured-text: #fff;
   --secondary-color: #ef6262;
-  --background: linear-gradient(0deg, rgb(41 41 41) 0, rgb(0 0 0)); //  #101010;
+  --background:#101010; //   linear-gradient(0deg, rgb(41 41 41) 0, rgb(0 0 0))
   --text-color: rgba(255, 255, 255, 0.88);
   --text-secondary-color: rgba(255, 255, 255, 0.66);
   --site-header: var(--background);
@@ -202,7 +202,7 @@ a {
 
 .post {
   padding: 0;
-  background: var(--background);
+  // background: var(--background);
   color: var(--text-color);
   line-height: 1.5;
 

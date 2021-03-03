@@ -28,7 +28,7 @@ const BlogPage = ({
       <PageHero title="Blog" subtitle="I write about software , engineering and life." links={null} />
 
       <br/>
-        <p>Under construction</p>
+        <p>My old Medium blog is  <a href="https://www.medium.com/@ammarhalees" title="medium blog" target="_blank" rel="noreferrer noopener">here</a> </p>
 
       <HomeSection title="Development" >
         <div className="grids">
@@ -37,11 +37,10 @@ const BlogPage = ({
         </div>
       </HomeSection>
 
-      <HomeSection title="Thoughts" >
+      {/* <HomeSection title="Thoughts" >
 
-        {/* {Posts} */}
 
-      </HomeSection>
+      </HomeSection> */}
 
     </Layout>
   )

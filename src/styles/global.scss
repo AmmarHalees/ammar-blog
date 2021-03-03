@@ -673,3 +673,43 @@ body.light {
   font-size: 1.5rem  !important;
   font-weight: 500;
 }
+
+
+._education_card{
+
+  border-radius: 1rem;
+  border: 1px solid rgb(107, 107, 107);
+  padding: 1rem !important;
+
+  h2 , h3 , h4{
+
+    font-weight: normal;
+
+  }
+
+  h3,h4{
+    margin-top: 1rem;
+    color: var(--btn-text-color);
+  }
+
+}
+
+._courses{
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(234px, 369px));
+    gap: 1rem;
+
+}
+
+._education_container{
+
+  display: grid;
+  gap: 2rem;
+
+  h2{
+
+    margin: 0px;
+  }
+
+}

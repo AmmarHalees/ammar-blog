@@ -32,7 +32,7 @@ const IndexPage = ({
       <HomeSection title="Experience">
 
 
-        <VerticalTimeline  animate={isDesktopOrLaptop}>
+        <VerticalTimeline animate={isDesktopOrLaptop}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             // contentStyle={{ background: '#181326', color: '#fff' }}
@@ -41,7 +41,7 @@ const IndexPage = ({
               <h3>Mawdoo3.com (World’s largest
 Arabic content website)</h3>
       Jun. 19th 2020 – present.</div>}
-            iconStyle={{ backgroundColor: '#181326', color: '#fff' , backgroundImage: `url(https://modo3.com/icon-normal.png)` }}
+            iconStyle={{ backgroundColor: '#181326', color: '#fff', backgroundImage: `url(https://modo3.com/icon-normal.png)` }}
             icon={null}
           >
             <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
@@ -67,7 +67,7 @@ Arabic content website)</h3>
           </li>
 
             </ul>
-            
+
 
           </VerticalTimelineElement>
 
@@ -78,7 +78,7 @@ Arabic content website)</h3>
             date={<div className="_timeline-date-container">
               <h3>LigaData (Big data analytics)</h3>
               Jan. 21st 2020 – Jun. 19th 2020</div>}
-            iconStyle={{ backgroundColor: '#c7b2c7', color: '#fff' , backgroundImage: `url(https://ligadata.com/wp-content/uploads/2019/12/ligadatasvg.svg)` }}
+            iconStyle={{ backgroundColor: '#c7b2c7', color: '#fff', backgroundImage: `url(https://ligadata.com/wp-content/uploads/2019/12/ligadatasvg.svg)` }}
             icon={null}
           >
             <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
@@ -109,7 +109,7 @@ Arabic content website)</h3>
               <h3>Erabia (E-commerce)</h3>
               Dec. 2nd
 , 2018 – Jan. 19th 2020</div>}
-            iconStyle={{    backgroundRepeat: "no-repeat", backgroundColor: '#c8dbff', color: '#fff' , backgroundImage: `url(https://d1alm8p94swy6o.cloudfront.net/wp-content/uploads/2018/12/16160458/erabialogo.png)` }}
+            iconStyle={{ backgroundRepeat: "no-repeat", backgroundColor: '#c8dbff', color: '#fff', backgroundImage: `url(https://d1alm8p94swy6o.cloudfront.net/wp-content/uploads/2018/12/16160458/erabialogo.png)` }}
             icon={null}
           >
             <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
@@ -140,6 +140,193 @@ Arabic content website)</h3>
 
       <HomeSection title="Education">
 
+
+        <div className="_education_container" >
+
+          <div className="_education_card">
+
+            <h2>
+
+              B.A in Electronics Engineering
+
+            </h2>
+            <h3>
+
+              PSUT
+
+            </h3>
+
+            <h4>
+
+              Sep. 1st /2013 - May. 25th /2018
+
+            </h4>
+
+
+          </div>
+
+          <h2>Courses</h2>
+
+          <div className="_courses">
+
+
+            <div className="_education_card ">
+
+              <h2>
+
+                CSX50
+
+</h2>
+              <h3 className="_subtitle">
+
+                Harvard (Online)
+
+</h3>
+
+              <h4>
+
+                Aug. 2018
+
+
+</h4>
+
+
+            </div>
+
+
+            <div className="_education_card ">
+
+              <h2>
+
+                JavaScript: Understanding the
+                Weird Parts
+
+</h2>
+              <h3>
+
+                Udemy - Tony Alicea (Online)
+
+</h3>
+
+              <h4>
+
+                Oct. 2018
+
+
+</h4>
+
+
+            </div>
+
+
+
+            <div className="_education_card ">
+
+              <h2>
+
+              Easy to Advanced Data-structures 
+
+
+</h2>
+              <h3>
+
+              Udemy/Google (Online)
+
+</h3>
+
+              <h4>
+
+              Dec. 2019
+
+
+</h4>
+
+
+            </div>
+
+
+            <div className="_education_card ">
+
+              <h2>
+
+              Mastering NextJS
+
+
+</h2>
+              <h3>
+
+              Lee Robinson (Online)
+
+</h3>
+
+              <h4>
+
+              Jan. 2020
+
+
+</h4>
+
+
+            </div>
+
+
+
+            <div className="_education_card ">
+
+              <h2>
+
+              Typescript
+
+
+</h2>
+              <h3>
+
+              Udemy (Online)
+
+</h3>
+
+              <h4>
+
+              Jun. 2019
+
+
+</h4>
+
+
+            </div>
+
+
+            <div className="_education_card ">
+
+              <h2>
+
+              A bunch of other React and JS course
+
+
+</h2>
+              <h3>
+
+              Udemy (Online)
+
+</h3>
+
+              <h4>
+
+              Jun. 2019
+
+
+</h4>
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
 
       </HomeSection>
 

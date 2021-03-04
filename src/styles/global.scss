@@ -713,3 +713,46 @@ body.light {
   }
 
 }
+
+._tech-item{
+  border: 1px solid #6b6b6b;
+  padding: 8px !important;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 3px;
+}
+
+._controls-container{
+
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  align-items: center;
+
+  a{
+    display: block;
+    width: fit-content;  }
+}
+
+
+._project_card{
+
+  border-radius: 1rem;
+  border: 1px solid rgb(107, 107, 107);
+  padding: 1rem !important;
+  display: grid;
+  gap: 1rem;
+
+  h2 , h3 , h4{
+
+    font-weight: normal;
+    margin: 0px;
+
+  }
+
+  h3,h4{
+    color: var(--btn-text-color);
+  }
+
+}

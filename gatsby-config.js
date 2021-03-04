@@ -68,9 +68,28 @@ module.exports = {
           // Avoids sending pageview hits from custom paths
           exclude: ["/preview/**", "/do-not-track/me/too/"],
         },
+
+
+
       },
     },
 
+    {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        credentials: {
+          apiKey: "AIzaSyCb0qmvUiGE6xfqHi9nLnWFZGIiurS31sY",
+          authDomain: "blog-4736c.firebaseapp.com",
+          projectId: "blog-4736c",
+          storageBucket: "blog-4736c.appspot.com",
+          messagingSenderId: "372869411734",
+          appId: "1:372869411734:web:d36b8063dad6a9c16a23b7",
+          measurementId: "G-47ZQM7TYFW"
+        }
+      }
+    }
+
+    ,
 
     {
       resolve: `gatsby-plugin-manifest`,

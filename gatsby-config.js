@@ -57,7 +57,7 @@ module.exports = {
         short_name: `Ammar`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#381696`,
+        theme_color: `#fff`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },

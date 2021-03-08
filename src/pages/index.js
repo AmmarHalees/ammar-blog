@@ -25,6 +25,7 @@ const IndexPage = ({
       <Helmet htmlAttributes={{ lang: 'en' }}>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+        <meta name="google-site-verification" content="aN4O0-l0d9j8Pji-eP5vNwuXzIclW6o6yjLjmlbqb1U" />
       </Helmet>
 
       <PageHero title="Ammar Halees" subtitle="Software engineer - Front-end @Mawdoo3." links={links} />
@@ -224,19 +225,19 @@ Arabic content website)</h3>
 
               <h2>
 
-              Easy to Advanced Data-structures 
+                Easy to Advanced Data-structures
 
 
 </h2>
               <h3>
 
-              Udemy/Google (Online)
+                Udemy/Google (Online)
 
 </h3>
 
               <h4>
 
-              Dec. 2019
+                Dec. 2019
 
 
 </h4>
@@ -249,19 +250,19 @@ Arabic content website)</h3>
 
               <h2>
 
-              Mastering NextJS
+                Mastering NextJS
 
 
 </h2>
               <h3>
 
-              Lee Robinson (Online)
+                Lee Robinson (Online)
 
 </h3>
 
               <h4>
 
-              Jan. 2020
+                Jan. 2020
 
 
 </h4>
@@ -275,19 +276,19 @@ Arabic content website)</h3>
 
               <h2>
 
-              Typescript
+                Typescript
 
 
 </h2>
               <h3>
 
-              Udemy (Online)
+                Udemy (Online)
 
 </h3>
 
               <h4>
 
-              Jun. 2019
+                Jun. 2019
 
 
 </h4>
@@ -300,19 +301,19 @@ Arabic content website)</h3>
 
               <h2>
 
-              A bunch of other React and JS course
+                A bunch of other React and JS course
 
 
 </h2>
               <h3>
 
-              Udemy (Online)
+                Udemy (Online)
 
 </h3>
 
               <h4>
 
-              Jun. 2019
+                Jun. 2019
 
 
 </h4>

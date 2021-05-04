@@ -72,35 +72,6 @@ Arabic content website)</h3>
 
           </VerticalTimelineElement>
 
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            // contentStyle={{ background: '#181326', color: '#fff' }}
-            // contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-            date={<div className="_timeline-date-container">
-              <h3>LigaData (Big data analytics)</h3>
-              Jan. 21st 2020 – Jun. 19th 2020</div>}
-            iconStyle={{ backgroundColor: '#c7b2c7', color: '#fff', backgroundImage: `url(https://ligadata.com/wp-content/uploads/2019/12/ligadatasvg.svg)` }}
-            icon={null}
-          >
-            <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle _subtitle">Amman, Jordan</h4>
-
-            <ul className="jobstuff">
-
-              <li>
-                Worked on the “Sancho Analytics” big data Chat-bot management system.
-          </li>
-
-              <li>
-                Used mainly: ReactJS , Redux, NextJS, GraphQL, Jest, ExpressJS and more.
-
-          </li>
-
-
-            </ul>
-
-
-          </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -109,7 +80,7 @@ Arabic content website)</h3>
             date={<div className="_timeline-date-container">
               <h3>Erabia (E-commerce)</h3>
               Dec. 2nd
-, 2018 – Jan. 19th 2020</div>}
+, 2018 – Jun. 19th 2020</div>}
             iconStyle={{ backgroundRepeat: "no-repeat", backgroundColor: '#c8dbff', color: '#fff', backgroundImage: `url(https://d1alm8p94swy6o.cloudfront.net/wp-content/uploads/2018/12/16160458/erabialogo.png)` }}
             icon={null}
           >

@@ -106,10 +106,10 @@ a {
     margin: 0 8px 0;
     border-bottom: 2px solid transparent;
     padding-bottom: 0.5rem;
-    font-weight: 600;
+    // font-weight: 600;
 
     &[aria-current] {
-      border-color: var(--primary-color);
+      color: var(--primary-color);
     }
 
     &:hover {
@@ -652,7 +652,7 @@ body.light {
 
 ._project_card {
   border-radius: 1rem;
-  border: 1px solid rgb(107, 107, 107);
+  border: 1px solid #6b6b6b30;
   padding: 1rem !important;
   display: grid;
   gap: 1rem;

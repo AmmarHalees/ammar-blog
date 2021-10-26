@@ -22,7 +22,7 @@ const Projectspage = ({
 
       <HomeSection title="For fun" >
         <div className="grids">
-     
+
           <div className="_project_card ">
 
             <h2>
@@ -37,7 +37,7 @@ const Projectspage = ({
               <span className="_tech-item">Unsplash API </span>
               <span className="_tech-item">Redux </span>
               <span className="_tech-item">React Router </span>
-     
+
 
             </h3>
 
@@ -53,7 +53,7 @@ const Projectspage = ({
 
           </div>
 
-     
+
           <div className="_project_card ">
 
             <h2>
@@ -66,7 +66,7 @@ const Projectspage = ({
 
               <span className="_tech-item">React </span>
               <span className="_tech-item">React Router </span>
-     
+
 
             </h3>
 
@@ -82,7 +82,7 @@ const Projectspage = ({
 
           </div>
 
-     
+
           <div className="_project_card ">
 
             <h2>
@@ -106,7 +106,7 @@ const Projectspage = ({
 
               <a href="https://sliderbna.netlify.app/" title="Slider before and after" target="_blank" rel="noreferrer noopener">Demo</a>
 
-              <a href="https://github.com/AmmarHalees/react-bna" title="Slider before and after" target="_blank" rel="noreferrer noopener">Source</a>
+              <a href="" title="Slider before and after" target="_blank" rel="noreferrer noopener">Source</a>
 
 
             </div>
@@ -114,19 +114,19 @@ const Projectspage = ({
 
           </div>
 
-     
+
           <div className="_project_card ">
 
             <h2>
 
-            Hooks form validation 
+              Hooks form validation
 
             </h2>
 
             <h3>
 
               <span className="_tech-item">React</span>
-         
+
 
               <span className="_tech-item">ES6+
 

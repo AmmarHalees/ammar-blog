@@ -2,23 +2,16 @@ import React from "react"
 import Helmet from 'react-helmet';
 import Layout from "../components/layout"
 import links from '../../data/social.json';
-import Twitter from '../images/twitter.svg';
-import Github from '../images/github.svg';
 
 import PageHero from "../components/PageHero";
 import HomeSection from "../components/HomeSection";
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { useMediaQuery } from 'react-responsive'
 
 const IndexPage = ({
   data: {
     site
   },
 }) => {
-  const isDesktopOrLaptop = useMediaQuery({
-    query: '(min-device-width: 1224px)'
-  })
 
   return (
     <Layout>
@@ -32,81 +25,72 @@ const IndexPage = ({
 
       <HomeSection title="Experience">
 
+        <div class="experience_container">
 
-        <VerticalTimeline animate={isDesktopOrLaptop}>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            // contentStyle={{ background: '#181326', color: '#fff' }}
-            // contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-            date={<div className="_timeline-date-container">
-              <h3>Mawdoo3.com (World’s largest
-Arabic content website)</h3>
-      Jun.  2020 – Jun 2021.</div>}
-            iconStyle={{ backgroundColor: '#181326', color: '#fff', backgroundImage: `url(https://modo3.com/icon-normal.png)` }}
-            icon={null}
-          >
-            <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle _subtitle">Amman, Jordan</h4>
+          <div className="_education_card">
 
-            <ul className="jobstuff">
+            <h2>
 
-              <li>
-                Working with the web team on a website builder: Using VueJS, Nuxt, Webpack, and corresponding
-                tooling.
-          </li>
+              Software engineer - Front-end
 
-              <li>
-                Worked on the “Darsak” and “Saffak” government Educational Platforms : Used mainly VueJS and PHP
-                laravel.
+</h2>
+            <h3>
 
-          </li>
+              Majid Al-Futtaim | Mall of the Emirates
 
-              <li>
-                Lead many efforts in performance optimization of existing websites
+</h3>
+
+            <h4>
+
+              May. 2nd /2021 - Present
+
+</h4>
 
 
-          </li>
+          </div>
+          <div className="_education_card">
 
-            </ul>
+            <h2>
 
+              Software engineer - Front-end
 
-          </VerticalTimelineElement>
+</h2>
+            <h3>
 
+              Mawdoo3.com
 
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            // contentStyle={{ background: '#181326', color: '#fff' }}
-            // contentArrowStyle={{ borderRight: '7px solid  #181326' }}
-            date={<div className="_timeline-date-container">
-              <h3>Erabia (E-commerce)</h3>
-              Dec. 2nd
-, 2018 – Jun. 19th 2020</div>}
-            iconStyle={{ backgroundRepeat: "no-repeat", backgroundColor: '#c8dbff', color: '#fff', backgroundImage: `url(https://d1alm8p94swy6o.cloudfront.net/wp-content/uploads/2018/12/16160458/erabialogo.png)` }}
-            icon={null}
-          >
-            <h3 className="vertical-timeline-element-title">Front-end Software Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle _subtitle">Amman, Jordan</h4>
+</h3>
 
-            <ul className="jobstuff">
+            <h4>
 
-              <li>
-                Worked on the “Erabia Dashboard” Project used by the administrators of online stores (Carrefour, Cosmo,
-                Kaf and others) to manage products, customers, accounts, orders and more.
-          </li>
+              April. 1st /2020 - April. 29th /2021
 
-              <li>
-                Worked with technologies such as: ReactJs, (ES6), Nodejs, Puppeteer, NPM, Redux, Webpack,
-                Git, SAP Hybris And more, implementing strict functional programming practices.
-
-          </li>
+</h4>
 
 
-            </ul>
+          </div>
+          <div className="_education_card">
+
+            <h2>
+
+              Software engineer - Front-end
+
+</h2>
+            <h3>
+
+              Erabia
+
+</h3>
+
+            <h4>
+
+              Nov.  /2018 - March. 2020
+
+</h4>
 
 
-          </VerticalTimelineElement>
-
-        </VerticalTimeline>
+          </div>
+        </div>
 
       </HomeSection>
 
@@ -217,80 +201,13 @@ Arabic content website)</h3>
             </div>
 
 
-            <div className="_education_card ">
-
-              <h2>
-
-                Mastering NextJS
-
-
-</h2>
-              <h3>
-
-                Lee Robinson (Online)
-
-</h3>
-
-              <h4>
-
-                Jan. 2020
-
-
-</h4>
-
-
-            </div>
 
 
 
-            <div className="_education_card ">
-
-              <h2>
-
-                Typescript
 
 
-</h2>
-              <h3>
-
-                Udemy (Online)
-
-</h3>
-
-              <h4>
-
-                Jun. 2019
 
 
-</h4>
-
-
-            </div>
-
-
-            <div className="_education_card ">
-
-              <h2>
-
-                A bunch of other React and JS course
-
-
-</h2>
-              <h3>
-
-                Udemy (Online)
-
-</h3>
-
-              <h4>
-
-                Jun. 2019
-
-
-</h4>
-
-
-            </div>
 
 
 

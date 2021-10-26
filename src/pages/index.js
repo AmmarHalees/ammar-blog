@@ -5,7 +5,6 @@ import links from '../../data/social.json';
 
 import PageHero from "../components/PageHero";
 import HomeSection from "../components/HomeSection";
-import 'react-vertical-timeline-component/style.min.css';
 
 const IndexPage = ({
   data: {

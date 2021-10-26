@@ -28,7 +28,7 @@ const IndexPage = ({
         <meta name="google-site-verification" content="aN4O0-l0d9j8Pji-eP5vNwuXzIclW6o6yjLjmlbqb1U" />
       </Helmet>
 
-      <PageHero title="Ammar Halees" subtitle="Software engineer - Front-end @Mawdoo3." links={links} />
+      <PageHero title="Ammar Halees" subtitle="Software engineer - Front-end at Majid Al-Futtaim." links={links} />
 
       <HomeSection title="Experience">
 
@@ -41,7 +41,7 @@ const IndexPage = ({
             date={<div className="_timeline-date-container">
               <h3>Mawdoo3.com (World’s largest
 Arabic content website)</h3>
-      Jun. 19th 2020 – present.</div>}
+      Jun.  2020 – Jun 2021.</div>}
             iconStyle={{ backgroundColor: '#181326', color: '#fff', backgroundImage: `url(https://modo3.com/icon-normal.png)` }}
             icon={null}
           >

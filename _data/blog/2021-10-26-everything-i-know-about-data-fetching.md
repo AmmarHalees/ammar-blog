@@ -106,7 +106,9 @@ These are usually behind some type of auth wall.
 
 The process of rendering a page on the server. 
 
-SSR Flow:
+Data fetching happens at request time.
+
+#### **SSR Flow:**
 
 1. Browser requests a page from the server. 
 2. Server responds with an HTML document. (On every page request).
@@ -117,13 +119,76 @@ SSR Flow:
 
 1. First contentful paint is low, as you don't wait for the JS to be parsed and executed to see content on the page. 
 2. Data pre-fetching: Data is pre-fetched (its API is called at build time, not at run time) , so at the initial render, your html will have all the content.  
+3. Since Data Fetching occurs on each request;  the content is fresh and not stale.
 
 #### **Cons of SSR**
 
-1.  TTFB(Time To First Byte) AKA server response time , is slower than CSR, because your server will have to spend the time to create the HTML for your page instead of just sending out a relatively empty response;
+1.  TTFB(Time To First Byte) AKA server response time , is slower than CSR, because your server will have to spend the time to create the HTML for your page instead of just sending out a relatively empty response. (Data fetching happens at each page request)
 2. SSR throughput of your server is significantly less than CSR throughput. For react in particular, the throughput impact is extremely large. ReactDOMServer.renderToString is a synchronous CPU bound call, which holds the event loop, which means the server will not be able to process any other request till ReactDOMServer.renderToString completes.
 
-##### Helpful Links
+### **3. Static site generation:** 
+
+The process of generating static html pages on the server. 
+
+Data fetching happens at build time.
+
+#### **SSG Flow:**
+
+1. Browser requests a page from the server. 
+2. Server responds with an HTML document. (On the first page request).
+3. Browser renders HTML . (Page is viewable, not interactive yet - First paint)
+4. Browsers downloads , parses and executes JS (React). (Page is now interactive)
+5. Next site visit: Page is served from cache or CDN. 
+
+#### **Pros of SSG**
+
+1. Fast Page loads as data fetching happens once at build time and the page is cached.
+2. Less load on the server as the page is built once. 
+
+
+
+#### **Cons of SSG**
+
+1. Content might become stale. 
+2. Might need a caching layer or a CDN,
+
+
+
+#### **Usage of SSG in NextJS**
+
+**If your page depends on external data:** 
+
+By exporting `getStaticProps` and `getStaticPaths`  . 
+
+**If your page does not depend on external data:** 
+
+By exporting a functional component without blocking data-fetching requirements (without exporting getServerSideProps).
+
+### **4. Incremental Static re-generation:** 
+
+Combines both static site generation (page is built once on the server) and server-side rendering (page is built at each request) by serving a cached version of the static site to visitors who enter the site with the given "revalidate" time window and rebuilding the web-page after the time window has passed. 
+
+Example: 
+
+```jsx
+export async function getStaticProps() {
+  const res = await fetch('/api/products')
+  const products = await res.json()
+
+  return {
+    props: {
+      products,
+    },
+    revalidate: 60, // In seconds
+  }
+}
+```
+
+
+
+
+
+#### Helpful Links
 
 1. https://medium.com/walmartglobaltech/the-benefits-of-server-side-rendering-over-client-side-rendering
 2. https://www.youtube.com/watch?v=8_RzRQXSHcg

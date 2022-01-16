@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /everything-i-know-about-data-fetching
+path: /diffrent-ways-of-data-fetching
 date: 2021-09-23T20:06:09.175Z
-title: Everything i know about data fetching
+title: Diffrent ways of data fetching
 metaDescription: Date fetching is , well , the process of fetching data from
   source to destination.
 thumbnail: /assets/rise-of-skywalker-endor-fight.jpeg
@@ -10,11 +10,6 @@ thumbnail: /assets/rise-of-skywalker-endor-fight.jpeg
 ## **Intro:** 
 
 Date fetching is , well , the process of fetching data from source to destination
-
-## Timing: 
-
-1. At user request: happens on the client-side. For example: Like, follow, share etc. 
-2. At page request time: Is what the topic of this blog post is about.
 
 ## Strategies: 
 
@@ -145,14 +140,10 @@ Data fetching happens at build time.
 1. Fast Page loads as data fetching happens once at build time and the page is cached.
 2. Less load on the server as the page is built once. 
 
-
-
 #### **Cons of SSG**
 
 1. Content might become stale. 
 2. Might need a caching layer or a CDN,
-
-
 
 #### **Usage of SSG in NextJS**
 
@@ -183,10 +174,6 @@ export async function getStaticProps() {
   }
 }
 ```
-
-
-
-
 
 #### Helpful Links
 

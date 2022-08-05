@@ -6,9 +6,7 @@ title: "Implemented in JS: Dijkstra’s 2-stack Algorithm for Evaluating
   Mathematical Expressions"
 thumbnail: /assets/0_tgnht3l1ba9udan6.jpeg
 ---
-![](https://miro.medium.com/max/1400/0*tGnhT3L1Ba9uDAn6.jpg)
-
-For lack of a better image
+![]()
 
 ## Without diving too deep
 

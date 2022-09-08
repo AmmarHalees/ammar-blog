@@ -26,24 +26,49 @@ const IndexPage = ({
 
         <div class="experience_container">
 
+
+
+          <div className="_education_card">
+
+            <h2>
+
+              Senior Software Engineer - Seera Group
+
+            </h2>
+            <h3>
+
+              Accounts, Payments @ almosafer.com
+
+            </h3>
+
+            <h4>
+
+              April, 2022 - Present
+
+            </h4>
+
+
+          </div>
+
+
           <div className="_education_card">
 
             <h2>
 
               Software engineer - Front-end
 
-</h2>
+            </h2>
             <h3>
 
               Majid Al-Futtaim | Mall of the Emirates
 
-</h3>
+            </h3>
 
             <h4>
 
-              May. 2nd /2021 - Present
+              May, 2021 - April, 2022
 
-</h4>
+            </h4>
 
 
           </div>
@@ -53,18 +78,18 @@ const IndexPage = ({
 
               Software engineer - Front-end
 
-</h2>
+            </h2>
             <h3>
 
               Mawdoo3.com
 
-</h3>
+            </h3>
 
             <h4>
 
-              April. 1st /2020 - April. 29th /2021
+              April, 2020 - April, 2021
 
-</h4>
+            </h4>
 
 
           </div>
@@ -74,18 +99,18 @@ const IndexPage = ({
 
               Software engineer - Front-end
 
-</h2>
+            </h2>
             <h3>
 
               Erabia
 
-</h3>
+            </h3>
 
             <h4>
 
-              Nov.  /2018 - March. 2020
+              Nov.  2018 - March, 2020
 
-</h4>
+            </h4>
 
 
           </div>
@@ -131,19 +156,19 @@ const IndexPage = ({
 
                 CSX50
 
-</h2>
+              </h2>
               <h3 className="_subtitle">
 
                 Harvard (Online)
 
-</h3>
+              </h3>
 
               <h4>
 
                 Aug. 2018
 
 
-</h4>
+              </h4>
 
 
             </div>
@@ -156,19 +181,19 @@ const IndexPage = ({
                 JavaScript: Understanding the
                 Weird Parts
 
-</h2>
+              </h2>
               <h3>
 
                 Udemy - Tony Alicea (Online)
 
-</h3>
+              </h3>
 
               <h4>
 
                 Oct. 2018
 
 
-</h4>
+              </h4>
 
 
             </div>
@@ -182,19 +207,19 @@ const IndexPage = ({
                 Easy to Advanced Data-structures
 
 
-</h2>
+              </h2>
               <h3>
 
                 Udemy/Google (Online)
 
-</h3>
+              </h3>
 
               <h4>
 
                 Dec. 2019
 
 
-</h4>
+              </h4>
 
 
             </div>

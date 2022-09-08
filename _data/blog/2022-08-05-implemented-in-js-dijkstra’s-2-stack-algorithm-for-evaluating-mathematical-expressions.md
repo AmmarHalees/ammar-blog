@@ -3,7 +3,7 @@ template: BlogPost
 path: /dijkstras-2-stack-algorithm-for-evaluating-mathematical-expressions
 date: 2022-08-05T19:55:04.063Z
 title: "Implemented in JS: Dijkstra’s 2-stack Algorithm for Evaluating
-  Mathematical Expressions"
+  Mathematical Expressions."
 thumbnail: /assets/0_tgnht3l1ba9udan6.jpeg
 ---
 ![]()

@@ -2,7 +2,7 @@
 template: BlogPost
 path: /diffrent-ways-of-data-fetching
 date: 2021-09-23T20:06:09.175Z
-title: Diffrent ways of data fetching
+title: Diffrent ways of data fetching.
 metaDescription: Date fetching is , well , the process of fetching data from
   source to destination.
 thumbnail: /assets/rise-of-skywalker-endor-fight.jpeg

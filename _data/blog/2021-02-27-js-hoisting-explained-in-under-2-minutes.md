@@ -2,7 +2,7 @@
 template: BlogPost
 path: /js-hoisting-explained-in-under-2-minutes
 date: 2021-02-27T19:18:09.052Z
-title: JS Hoisting explained in under 2 minutes
+title: JS Hoisting explained in under 2 minutes.
 metaDescription: |
   A simple and straightforward explanation of hoisting..
 thumbnail: /assets/1_flouovyjlil6kyn4dk3vrq.png

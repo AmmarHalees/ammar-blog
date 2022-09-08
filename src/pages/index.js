@@ -20,7 +20,7 @@ const IndexPage = ({
         <meta name="google-site-verification" content="aN4O0-l0d9j8Pji-eP5vNwuXzIclW6o6yjLjmlbqb1U" />
       </Helmet>
 
-      <PageHero title="Ammar Halees" subtitle="Senior software engineer" links={links} />
+      <PageHero title="Ammar Halees" subtitle="Senior software engineer." links={links} />
 
       <HomeSection title="Experience">
 

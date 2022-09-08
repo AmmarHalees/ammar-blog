@@ -642,6 +642,8 @@ body.light {
   grid-template-columns: auto auto;
   justify-content: space-around;
   align-items: center;
+  width: fit-content;
+  margin: auto;
 
   a {
     display: block;

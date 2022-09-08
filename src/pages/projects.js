@@ -20,7 +20,7 @@ const Projectspage = ({
       <PageHero title="Projects" subtitle="Open source contributions & code templates." links={null} />
 
 
-      <HomeSection title="For fun" >
+      <HomeSection title="Very old" >
         <div className="grids">
 
           <div className="_project_card ">

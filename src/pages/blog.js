@@ -25,10 +25,10 @@ const BlogPage = ({
         <meta name="description" content={"Blog page of " + site.siteMetadata.title} />
       </Helmet>
 
-      <PageHero title="Blog" subtitle="I write about software and engineering. I use my blog as a reference (notes)" links={null} />
+      <PageHero title="Blog" subtitle="I write about software and engineering." links={null} />
 
       <br />
-      <p>My old Medium blog is  <a href="https://www.medium.com/@ammarhalees" title="medium blog" target="_blank" rel="noreferrer noopener">here</a> </p>
+      <p>My old Medium blog is  <a href="https://www.medium.com/@ammarhalees" title="medium blog" target="_blank" rel="noreferrer noopener">here.</a> </p>
 
       <HomeSection title="Development" >
         <div className="grids">

@@ -17,7 +17,7 @@ const Talkspage = ({
         <meta name="description" content={"Talks page of " + site.siteMetadata.title} />
       </Helmet>
 
-      <PageHero title="Talks" subtitle="Open source contributions & code templates." links={null} />
+      <PageHero title="/Talks" subtitle="" links={null} />
 
       <HomeSection title="Sep. 2022" >
         <div className="grids">

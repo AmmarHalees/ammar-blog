@@ -40,13 +40,10 @@ const Talkspage = ({
             <div className="_controls-container">
 
               <a href="https://mosaw.netlify.app" title="Project Material" target="_blank" rel="noreferrer noopener">Material</a>
+              <a href="https://josa.ngo/events/122/josa-workshop--controlling-the-browser-with-puppeteer" title="Project Details" target="_blank" rel="noreferrer noopener">Details</a>
 
             </div>
-            <div className="_controls-container">
 
-<a href="https://josa.ngo/events/122/josa-workshop--controlling-the-browser-with-puppeteer" title="Project Details" target="_blank" rel="noreferrer noopener">Details</a>
-
-</div>
           </div>
 
         </div>

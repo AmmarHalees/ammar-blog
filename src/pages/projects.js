@@ -94,12 +94,12 @@ const Projectspage = ({
             <h3>
 
               <span className="_tech-item">Babel 6.x.x
- </span>
+              </span>
               <span className="_tech-item">Webpack 4.x.x </span>
 
               <span className="_tech-item">ES6+
 
- </span>
+              </span>
             </h3>
 
             <div className="_controls-container">
@@ -130,7 +130,7 @@ const Projectspage = ({
 
               <span className="_tech-item">ES6+
 
- </span>
+              </span>
             </h3>
 
             <div className="_controls-container">

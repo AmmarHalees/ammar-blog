@@ -17,7 +17,7 @@ const Talkspage = ({
         <meta name="description" content={"Talks page of " + site.siteMetadata.title} />
       </Helmet>
 
-      <PageHero title="/Talks" subtitle="" links={null} />
+      <PageHero title="Talks" subtitle="" links={null} />
 
       <HomeSection title="Sep. 2022" >
         <div className="grids">
@@ -39,7 +39,7 @@ const Talkspage = ({
             
             <div className="_controls-container">
 
-              <a href="https://mosaw.netlify.app" title="Project Material" target="_blank" rel="noreferrer noopener">Material</a>
+              {/* <a href="https://mosaw.netlify.app" title="Project Material" target="_blank" rel="noreferrer noopener">Material</a> */}
               <a href="https://josa.ngo/events/122/josa-workshop--controlling-the-browser-with-puppeteer" title="Project Details" target="_blank" rel="noreferrer noopener">Details</a>
 
             </div>

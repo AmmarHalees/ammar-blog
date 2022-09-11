@@ -117,7 +117,7 @@ const IndexPage = ({
         </div>
 
       </HomeSection>
-
+{/* 
       <HomeSection title="Education">
 
 
@@ -241,7 +241,7 @@ const IndexPage = ({
 
         </div>
 
-      </HomeSection>
+      </HomeSection> */}
 
 
     </Layout>

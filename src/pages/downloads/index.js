@@ -1,9 +1,9 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
-import Layout from "../components/layout"
-import PageHero from "../components/PageHero"
-import HomeSection from "../components/HomeSection"
+import Layout from "../../components/layout"
+import PageHero from "../../components/PageHero"
+import HomeSection from "../../components/HomeSection"
 
 const Downloadspage = ({
   data: {
@@ -36,7 +36,7 @@ const Downloadspage = ({
 
 
             </h3>
-            
+
             <div className="_controls-container">
 
               <a href="https://mosaw.netlify.app" title="Project Material" target="_blank" rel="noreferrer noopener">Material</a>

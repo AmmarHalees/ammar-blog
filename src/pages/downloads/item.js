@@ -1,9 +1,9 @@
 import React from "react"
 import Helmet from "react-helmet"
 import { graphql } from 'gatsby'
-import Layout from "../components/layout"
-import PageHero from "../components/PageHero"
-import HomeSection from "../components/HomeSection"
+import Layout from "../../components/layout"
+import PageHero from "../../components/PageHero"
+import HomeSection from "../../components/HomeSection"
 
 const Downloadpage = ({
   data: {

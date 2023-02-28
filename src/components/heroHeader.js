@@ -1,21 +1,6 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby";
 
-import LinkedIN from '../images/linkedin.svg';
-import Github from '../images/github.svg';
-import Twitter from '../images/twitter.svg';
-import Medium from '../images/medium.svg';
-
-
-const iconMap = {
-
-  "linkedin": <LinkedIN />,
-  "github": <Github />,
-  "twitter": <Twitter />,
-  "medium": <Medium />,
-
-}
-
 const graphMap = {
 
   "home" : graphql`
@@ -47,11 +32,7 @@ export default ({links , page}) => (
 
       <h2 className="_subtitle">{data.site.siteMetadata.home.description}</h2>
 
-      {links && <ul className="social-links">
 
-        {links.links.map(({ title, href, id, icon }) => <li key={id}><a href={href} title={title} target="_blank" rel="noreferrer noopener">{iconMap[icon]}</a> </li>)}
-
-      </ul>}
 
     </section>
 

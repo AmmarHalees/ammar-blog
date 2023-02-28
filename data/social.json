@@ -1,33 +1,39 @@
 {
-
-    "links": [
-
-        {
-
-            "title":"linkedin profile",
-            "id": "linkedin",
-            "href" : "https://www.linkedin.com/in/ammarhalees/",
-            "icon" : "linkedin"
-
-        },
-        {
-
-            "title":"Github profile",
-            "id": "github",
-            "href" : "https://github.com/AmmarHalees",
-            "icon" : "github"
-
-        },
-        {
-
-            "title":"Twitter profile",
-            "id": "twitter",
-            "href" : "https://twitter.com/ammarhalees",
-            "icon" : "twitter"
-
-        }
-
-    ]
-
-
+  "links": [
+    {
+      "title": "linkedin",
+      "username": "ammarhalees",
+      "id": "linkedin",
+      "href": "https://www.linkedin.com/in/ammarhalees/",
+      "icon": "linkedin"
+    },
+    {
+      "title": "Github",
+      "username": "ammarhalees",
+      "id": "github",
+      "href": "https://github.com/ammarhalees",
+      "icon": "github"
+    },
+    {
+      "title": "Twitter",
+      "username": "ammarhalees",
+      "id": "twitter",
+      "href": "https://twitter.com/ammarhalees",
+      "icon": "twitter"
+    },
+    {
+      "title": "Schedule a meeting",
+      "username": "ammarhalees",
+      "id": "meeting",
+      "href": "https://cal.com/ammar-halees-kcxzqa",
+      "icon": "calendar"
+    },
+    {
+      "title": "Resume",
+      "username": "ammarhalees",
+      "id": "resume",
+      "href": "https://www.nuclue.com/en/resume/view/57",
+      "icon": "globe"
+    }
+  ]
 }

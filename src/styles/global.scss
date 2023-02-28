@@ -575,11 +575,14 @@ body.light {
 .social-links {
   list-style: none;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: fit-content;
+  width: 300px;
   grid-gap: 1rem;
-  margin: 0px;
+  margin: auto;
   padding: 0px;
+
+  h2{
+    text-align: center;
+  }
 }
 
 ._heading {
@@ -618,6 +621,8 @@ body.light {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(234px, 369px));
   gap: 1rem;
+  list-style: none;
+
 }
 
 ._education_container {

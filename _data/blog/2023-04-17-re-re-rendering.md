@@ -3,7 +3,7 @@ template: BlogPost
 path: /re-re-rendering
 date: 2023-04-17T20:29:59.930Z
 title: re-re-rendering
-metaDescription: ""
+metaDescription: Why does React re-render a component when its parent re-renders
 thumbnail: https://images.unsplash.com/photo-1635241161466-541f065683ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bG9vcHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60
 ---
 ## **A React component re-renders for exactly two reasons:**

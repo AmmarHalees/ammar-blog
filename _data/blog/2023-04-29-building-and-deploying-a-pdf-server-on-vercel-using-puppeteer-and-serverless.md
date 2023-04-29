@@ -66,7 +66,6 @@ let browser = await puppeteer.launch(options);
 Options is your configuration object, which will customize the browser instance:
 
 ```jsx
-
 options = {
       args: [...chrome.args, "--hide-scrollbars", "--disable-web-security", '--font-render-hinting=none'],
       defaultViewport: chrome.defaultViewport,
@@ -152,11 +151,19 @@ If you want more robust CORS handling, you can create middlewear using the `cors
 
 Last but not least, we start our server:
 
-```jsx
+
+
+
+
+```javascript
 app.listen(process.env.PORT || 3001, () => {
   console.log("Server started");
 });
 ```
+
+
+
+
 
 ## Client
 

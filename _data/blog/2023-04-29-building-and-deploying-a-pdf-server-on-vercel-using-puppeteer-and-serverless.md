@@ -6,6 +6,7 @@ title: "Building and deploying a pdf server on vercel using puppeteer and server
 metaDescription: >
   At surface level, this seems like a simple issue task. But there’s actually a
   lot more to it than meets the eye.
+thumbnail: https://images.unsplash.com/photo-1667372525822-d226d23018dc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80
 ---
 At surface level, this seems like a simple issue task. But there’s actually a lot more to it than meets the eye.
 

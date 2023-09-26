@@ -19,6 +19,35 @@ const Talkspage = ({
 
       <PageHero title="Talks" subtitle="" links={null} />
 
+      <HomeSection title="Oct. 2023" >
+        <div className="grids">
+          <div className="_project_card">
+
+            <h2>
+
+              Why it's difficult to build a web browser.
+
+            </h2>
+
+            <h3>
+
+              <span className="_tech-item">Oct 20th, 2023. </span>
+
+
+            </h3>
+
+            <div className="_controls-container">
+
+              {/* <a href="https://mosaw.netlify.app" title="Project Material" target="_blank" rel="noreferrer noopener">Material</a> */}
+              <a href="https://www.meetup.com/amman-web-devs-community/?_cookie-check=u3DtR5QuPdCEgWbT" title="Project Details" target="_blank" rel="noreferrer noopener">Details</a>
+
+            </div>
+
+          </div>
+
+        </div>
+      </HomeSection>
+
       <HomeSection title="Oct. 2022" >
         <div className="grids">
           <div className="_project_card">

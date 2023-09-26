@@ -28,7 +28,11 @@ const BlogPage = ({
       <PageHero title="Blog" subtitle="" links={null} />
 
       <br />
-      <p>My old Medium blog is  <a href="https://www.medium.com/@ammarhalees" title="medium blog" target="_blank" rel="noreferrer noopener">here.</a> </p>
+      <p style={{
+        margin: "auto",
+        width: "fit-content",
+        color: "#ffffff52"
+      }}>My old Medium blog is  <a href="https://www.medium.com/@ammarhalees" title="medium blog" target="_blank" rel="noreferrer noopener">here.</a> </p>
 
       <HomeSection title="Development" >
         <div className="grids">

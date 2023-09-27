@@ -31,7 +31,7 @@ const BlogPage = ({
       <p style={{
         margin: "auto",
         width: "fit-content",
-        color: "#ffffff52"
+        color: "grey"
       }}>My old Medium blog is  <a href="https://www.medium.com/@ammarhalees" title="medium blog" target="_blank" rel="noreferrer noopener">here.</a> </p>
 
       <HomeSection title="Development" >
